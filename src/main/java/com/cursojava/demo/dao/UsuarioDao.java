@@ -12,4 +12,9 @@ public interface UsuarioDao {
     //llamado de un ususario con id
     Usuario getUsuario(Long id);
 
+    //llamado a eliminacion de un usuario
+    void eliminar(Long id);
+
+    //llamado a la adicion de un usuario
+    void registrar(Usuario usuario);
 }
