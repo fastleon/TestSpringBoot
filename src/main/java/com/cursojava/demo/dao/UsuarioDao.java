@@ -17,4 +17,6 @@ public interface UsuarioDao {
 
     //llamado a la adicion de un usuario
     void registrar(Usuario usuario);
+
+    Usuario obtenerUsuarioPorCredenciales(Usuario usuario);
 }
